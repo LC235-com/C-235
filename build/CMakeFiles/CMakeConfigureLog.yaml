@@ -1,0 +1,2477 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "D:/mingw64/bin/mingw32-make.exe.com"
+    found: "D:/mingw64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Cmake/share/cmake-4.3/Modules/"
+    found: "D:/Cmake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/code/project1/build/CMakeFiles/4.3.2/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/ar.com"
+    found: "D:/mingw64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/ranlib.com"
+    found: "D:/mingw64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/strip.com"
+    found: "D:/mingw64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/ld.com"
+    found: "D:/mingw64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/nm.com"
+    found: "D:/mingw64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/objdump.com"
+    found: "D:/mingw64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/objcopy.com"
+    found: "D:/mingw64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/readelf.com"
+    found: "D:/mingw64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/dlltool.com"
+    found: "D:/mingw64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/addr2line.com"
+    found: "D:/mingw64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/tapi.com"
+      - "D:/mingw64/bin/tapi.exe"
+      - "D:/mingw64/bin/tapi"
+      - "D:/usr/bin/tapi.com"
+      - "D:/usr/bin/tapi.exe"
+      - "D:/usr/bin/tapi"
+      - "D:/Download/bin/tapi.com"
+      - "D:/Download/bin/tapi.exe"
+      - "D:/Download/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/tapi.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/tapi.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/tapi"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/tapi.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/tapi.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/tapi"
+      - "D:/Cmake/bin/tapi.com"
+      - "D:/Cmake/bin/tapi.exe"
+      - "D:/Cmake/bin/tapi"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/tapi.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/tapi.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/tapi"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/tapi.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/tapi.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/tapi"
+      - "D:/Download/Microsoft VS Code/bin/tapi.com"
+      - "D:/Download/Microsoft VS Code/bin/tapi.exe"
+      - "D:/Download/Microsoft VS Code/bin/tapi"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/tapi.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/tapi.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/tapi"
+      - "C:/workspace/Python/tapi.com"
+      - "C:/workspace/Python/tapi.exe"
+      - "C:/workspace/Python/tapi"
+      - "C:/workspace/Python/Scripts/tapi.com"
+      - "C:/workspace/Python/Scripts/tapi.exe"
+      - "C:/workspace/Python/Scripts/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-8.1"
+      - "gcc-ar-8"
+      - "gcc-ar8"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/gcc-ar-8.1.com"
+      - "D:/mingw64/bin/gcc-ar-8.1.exe"
+      - "D:/mingw64/bin/gcc-ar-8.1"
+      - "D:/usr/bin/gcc-ar-8.1.com"
+      - "D:/usr/bin/gcc-ar-8.1.exe"
+      - "D:/usr/bin/gcc-ar-8.1"
+      - "D:/Download/bin/gcc-ar-8.1.com"
+      - "D:/Download/bin/gcc-ar-8.1.exe"
+      - "D:/Download/bin/gcc-ar-8.1"
+      - "C:/Windows/System32/gcc-ar-8.1.com"
+      - "C:/Windows/System32/gcc-ar-8.1.exe"
+      - "C:/Windows/System32/gcc-ar-8.1"
+      - "C:/Windows/gcc-ar-8.1.com"
+      - "C:/Windows/gcc-ar-8.1.exe"
+      - "C:/Windows/gcc-ar-8.1"
+      - "C:/Windows/System32/wbem/gcc-ar-8.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-8.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-8.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8.1"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8.1.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8.1.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8.1"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8.1.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8.1.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8.1"
+      - "D:/Cmake/bin/gcc-ar-8.1.com"
+      - "D:/Cmake/bin/gcc-ar-8.1.exe"
+      - "D:/Cmake/bin/gcc-ar-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8.1"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8.1.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8.1.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8.1"
+      - "C:/workspace/Python/gcc-ar-8.1.com"
+      - "C:/workspace/Python/gcc-ar-8.1.exe"
+      - "C:/workspace/Python/gcc-ar-8.1"
+      - "C:/workspace/Python/Scripts/gcc-ar-8.1.com"
+      - "C:/workspace/Python/Scripts/gcc-ar-8.1.exe"
+      - "C:/workspace/Python/Scripts/gcc-ar-8.1"
+      - "D:/mingw64/bin/gcc-ar-8.com"
+      - "D:/mingw64/bin/gcc-ar-8.exe"
+      - "D:/mingw64/bin/gcc-ar-8"
+      - "D:/usr/bin/gcc-ar-8.com"
+      - "D:/usr/bin/gcc-ar-8.exe"
+      - "D:/usr/bin/gcc-ar-8"
+      - "D:/Download/bin/gcc-ar-8.com"
+      - "D:/Download/bin/gcc-ar-8.exe"
+      - "D:/Download/bin/gcc-ar-8"
+      - "C:/Windows/System32/gcc-ar-8.com"
+      - "C:/Windows/System32/gcc-ar-8.exe"
+      - "C:/Windows/System32/gcc-ar-8"
+      - "C:/Windows/gcc-ar-8.com"
+      - "C:/Windows/gcc-ar-8.exe"
+      - "C:/Windows/gcc-ar-8"
+      - "C:/Windows/System32/wbem/gcc-ar-8.com"
+      - "C:/Windows/System32/wbem/gcc-ar-8.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-8"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8"
+      - "D:/Cmake/bin/gcc-ar-8.com"
+      - "D:/Cmake/bin/gcc-ar-8.exe"
+      - "D:/Cmake/bin/gcc-ar-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8"
+      - "C:/workspace/Python/gcc-ar-8.com"
+      - "C:/workspace/Python/gcc-ar-8.exe"
+      - "C:/workspace/Python/gcc-ar-8"
+      - "C:/workspace/Python/Scripts/gcc-ar-8.com"
+      - "C:/workspace/Python/Scripts/gcc-ar-8.exe"
+      - "C:/workspace/Python/Scripts/gcc-ar-8"
+      - "D:/mingw64/bin/gcc-ar8.com"
+      - "D:/mingw64/bin/gcc-ar8.exe"
+      - "D:/mingw64/bin/gcc-ar8"
+      - "D:/usr/bin/gcc-ar8.com"
+      - "D:/usr/bin/gcc-ar8.exe"
+      - "D:/usr/bin/gcc-ar8"
+      - "D:/Download/bin/gcc-ar8.com"
+      - "D:/Download/bin/gcc-ar8.exe"
+      - "D:/Download/bin/gcc-ar8"
+      - "C:/Windows/System32/gcc-ar8.com"
+      - "C:/Windows/System32/gcc-ar8.exe"
+      - "C:/Windows/System32/gcc-ar8"
+      - "C:/Windows/gcc-ar8.com"
+      - "C:/Windows/gcc-ar8.exe"
+      - "C:/Windows/gcc-ar8"
+      - "C:/Windows/System32/wbem/gcc-ar8.com"
+      - "C:/Windows/System32/wbem/gcc-ar8.exe"
+      - "C:/Windows/System32/wbem/gcc-ar8"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar8.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar8.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar8"
+      - "C:/Windows/System32/OpenSSH/gcc-ar8.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar8.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar8"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar8.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar8.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar8"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar8.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar8.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar8"
+      - "D:/Cmake/bin/gcc-ar8.com"
+      - "D:/Cmake/bin/gcc-ar8.exe"
+      - "D:/Cmake/bin/gcc-ar8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar8"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar8.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar8.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar8"
+      - "C:/workspace/Python/gcc-ar8.com"
+      - "C:/workspace/Python/gcc-ar8.exe"
+      - "C:/workspace/Python/gcc-ar8"
+      - "C:/workspace/Python/Scripts/gcc-ar8.com"
+      - "C:/workspace/Python/Scripts/gcc-ar8.exe"
+      - "C:/workspace/Python/Scripts/gcc-ar8"
+      - "D:/mingw64/bin/gcc-ar.com"
+    found: "D:/mingw64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-8.1"
+      - "gcc-ranlib-8"
+      - "gcc-ranlib8"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/gcc-ranlib-8.1.com"
+      - "D:/mingw64/bin/gcc-ranlib-8.1.exe"
+      - "D:/mingw64/bin/gcc-ranlib-8.1"
+      - "D:/usr/bin/gcc-ranlib-8.1.com"
+      - "D:/usr/bin/gcc-ranlib-8.1.exe"
+      - "D:/usr/bin/gcc-ranlib-8.1"
+      - "D:/Download/bin/gcc-ranlib-8.1.com"
+      - "D:/Download/bin/gcc-ranlib-8.1.exe"
+      - "D:/Download/bin/gcc-ranlib-8.1"
+      - "C:/Windows/System32/gcc-ranlib-8.1.com"
+      - "C:/Windows/System32/gcc-ranlib-8.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-8.1"
+      - "C:/Windows/gcc-ranlib-8.1.com"
+      - "C:/Windows/gcc-ranlib-8.1.exe"
+      - "C:/Windows/gcc-ranlib-8.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8.1"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8.1.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8.1.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8.1"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8.1.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8.1.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8.1"
+      - "D:/Cmake/bin/gcc-ranlib-8.1.com"
+      - "D:/Cmake/bin/gcc-ranlib-8.1.exe"
+      - "D:/Cmake/bin/gcc-ranlib-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8.1"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8.1.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8.1.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8.1"
+      - "C:/workspace/Python/gcc-ranlib-8.1.com"
+      - "C:/workspace/Python/gcc-ranlib-8.1.exe"
+      - "C:/workspace/Python/gcc-ranlib-8.1"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8.1.com"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8.1.exe"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8.1"
+      - "D:/mingw64/bin/gcc-ranlib-8.com"
+      - "D:/mingw64/bin/gcc-ranlib-8.exe"
+      - "D:/mingw64/bin/gcc-ranlib-8"
+      - "D:/usr/bin/gcc-ranlib-8.com"
+      - "D:/usr/bin/gcc-ranlib-8.exe"
+      - "D:/usr/bin/gcc-ranlib-8"
+      - "D:/Download/bin/gcc-ranlib-8.com"
+      - "D:/Download/bin/gcc-ranlib-8.exe"
+      - "D:/Download/bin/gcc-ranlib-8"
+      - "C:/Windows/System32/gcc-ranlib-8.com"
+      - "C:/Windows/System32/gcc-ranlib-8.exe"
+      - "C:/Windows/System32/gcc-ranlib-8"
+      - "C:/Windows/gcc-ranlib-8.com"
+      - "C:/Windows/gcc-ranlib-8.exe"
+      - "C:/Windows/gcc-ranlib-8"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8"
+      - "D:/Cmake/bin/gcc-ranlib-8.com"
+      - "D:/Cmake/bin/gcc-ranlib-8.exe"
+      - "D:/Cmake/bin/gcc-ranlib-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8"
+      - "C:/workspace/Python/gcc-ranlib-8.com"
+      - "C:/workspace/Python/gcc-ranlib-8.exe"
+      - "C:/workspace/Python/gcc-ranlib-8"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8.com"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8.exe"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8"
+      - "D:/mingw64/bin/gcc-ranlib8.com"
+      - "D:/mingw64/bin/gcc-ranlib8.exe"
+      - "D:/mingw64/bin/gcc-ranlib8"
+      - "D:/usr/bin/gcc-ranlib8.com"
+      - "D:/usr/bin/gcc-ranlib8.exe"
+      - "D:/usr/bin/gcc-ranlib8"
+      - "D:/Download/bin/gcc-ranlib8.com"
+      - "D:/Download/bin/gcc-ranlib8.exe"
+      - "D:/Download/bin/gcc-ranlib8"
+      - "C:/Windows/System32/gcc-ranlib8.com"
+      - "C:/Windows/System32/gcc-ranlib8.exe"
+      - "C:/Windows/System32/gcc-ranlib8"
+      - "C:/Windows/gcc-ranlib8.com"
+      - "C:/Windows/gcc-ranlib8.exe"
+      - "C:/Windows/gcc-ranlib8"
+      - "C:/Windows/System32/wbem/gcc-ranlib8.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib8.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib8"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib8.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib8.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib8"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib8.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib8.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib8"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib8.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib8.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib8"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib8.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib8.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib8"
+      - "D:/Cmake/bin/gcc-ranlib8.com"
+      - "D:/Cmake/bin/gcc-ranlib8.exe"
+      - "D:/Cmake/bin/gcc-ranlib8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib8"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib8.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib8.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib8"
+      - "C:/workspace/Python/gcc-ranlib8.com"
+      - "C:/workspace/Python/gcc-ranlib8.exe"
+      - "C:/workspace/Python/gcc-ranlib8"
+      - "C:/workspace/Python/Scripts/gcc-ranlib8.com"
+      - "C:/workspace/Python/Scripts/gcc-ranlib8.exe"
+      - "C:/workspace/Python/Scripts/gcc-ranlib8"
+      - "D:/mingw64/bin/gcc-ranlib.com"
+    found: "D:/mingw64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Cmake/share/cmake-4.3/Modules/"
+    found: "D:/Cmake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/code/project1/build/CMakeFiles/4.3.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-8.1"
+      - "gcc-ar-8"
+      - "gcc-ar8"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/gcc-ar-8.1.com"
+      - "D:/mingw64/bin/gcc-ar-8.1.exe"
+      - "D:/mingw64/bin/gcc-ar-8.1"
+      - "D:/usr/bin/gcc-ar-8.1.com"
+      - "D:/usr/bin/gcc-ar-8.1.exe"
+      - "D:/usr/bin/gcc-ar-8.1"
+      - "D:/Download/bin/gcc-ar-8.1.com"
+      - "D:/Download/bin/gcc-ar-8.1.exe"
+      - "D:/Download/bin/gcc-ar-8.1"
+      - "C:/Windows/System32/gcc-ar-8.1.com"
+      - "C:/Windows/System32/gcc-ar-8.1.exe"
+      - "C:/Windows/System32/gcc-ar-8.1"
+      - "C:/Windows/gcc-ar-8.1.com"
+      - "C:/Windows/gcc-ar-8.1.exe"
+      - "C:/Windows/gcc-ar-8.1"
+      - "C:/Windows/System32/wbem/gcc-ar-8.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-8.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-8.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8.1"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8.1.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8.1.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8.1"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8.1.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8.1.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8.1"
+      - "D:/Cmake/bin/gcc-ar-8.1.com"
+      - "D:/Cmake/bin/gcc-ar-8.1.exe"
+      - "D:/Cmake/bin/gcc-ar-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8.1"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8.1.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8.1.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8.1"
+      - "C:/workspace/Python/gcc-ar-8.1.com"
+      - "C:/workspace/Python/gcc-ar-8.1.exe"
+      - "C:/workspace/Python/gcc-ar-8.1"
+      - "C:/workspace/Python/Scripts/gcc-ar-8.1.com"
+      - "C:/workspace/Python/Scripts/gcc-ar-8.1.exe"
+      - "C:/workspace/Python/Scripts/gcc-ar-8.1"
+      - "D:/mingw64/bin/gcc-ar-8.com"
+      - "D:/mingw64/bin/gcc-ar-8.exe"
+      - "D:/mingw64/bin/gcc-ar-8"
+      - "D:/usr/bin/gcc-ar-8.com"
+      - "D:/usr/bin/gcc-ar-8.exe"
+      - "D:/usr/bin/gcc-ar-8"
+      - "D:/Download/bin/gcc-ar-8.com"
+      - "D:/Download/bin/gcc-ar-8.exe"
+      - "D:/Download/bin/gcc-ar-8"
+      - "C:/Windows/System32/gcc-ar-8.com"
+      - "C:/Windows/System32/gcc-ar-8.exe"
+      - "C:/Windows/System32/gcc-ar-8"
+      - "C:/Windows/gcc-ar-8.com"
+      - "C:/Windows/gcc-ar-8.exe"
+      - "C:/Windows/gcc-ar-8"
+      - "C:/Windows/System32/wbem/gcc-ar-8.com"
+      - "C:/Windows/System32/wbem/gcc-ar-8.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-8"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-8"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-8"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar-8"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar-8"
+      - "D:/Cmake/bin/gcc-ar-8.com"
+      - "D:/Cmake/bin/gcc-ar-8.exe"
+      - "D:/Cmake/bin/gcc-ar-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar-8"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar-8"
+      - "C:/workspace/Python/gcc-ar-8.com"
+      - "C:/workspace/Python/gcc-ar-8.exe"
+      - "C:/workspace/Python/gcc-ar-8"
+      - "C:/workspace/Python/Scripts/gcc-ar-8.com"
+      - "C:/workspace/Python/Scripts/gcc-ar-8.exe"
+      - "C:/workspace/Python/Scripts/gcc-ar-8"
+      - "D:/mingw64/bin/gcc-ar8.com"
+      - "D:/mingw64/bin/gcc-ar8.exe"
+      - "D:/mingw64/bin/gcc-ar8"
+      - "D:/usr/bin/gcc-ar8.com"
+      - "D:/usr/bin/gcc-ar8.exe"
+      - "D:/usr/bin/gcc-ar8"
+      - "D:/Download/bin/gcc-ar8.com"
+      - "D:/Download/bin/gcc-ar8.exe"
+      - "D:/Download/bin/gcc-ar8"
+      - "C:/Windows/System32/gcc-ar8.com"
+      - "C:/Windows/System32/gcc-ar8.exe"
+      - "C:/Windows/System32/gcc-ar8"
+      - "C:/Windows/gcc-ar8.com"
+      - "C:/Windows/gcc-ar8.exe"
+      - "C:/Windows/gcc-ar8"
+      - "C:/Windows/System32/wbem/gcc-ar8.com"
+      - "C:/Windows/System32/wbem/gcc-ar8.exe"
+      - "C:/Windows/System32/wbem/gcc-ar8"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar8.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar8.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar8"
+      - "C:/Windows/System32/OpenSSH/gcc-ar8.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar8.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar8"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar8.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar8.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ar8"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar8.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar8.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ar8"
+      - "D:/Cmake/bin/gcc-ar8.com"
+      - "D:/Cmake/bin/gcc-ar8.exe"
+      - "D:/Cmake/bin/gcc-ar8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ar8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ar8"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar8.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar8.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ar8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ar8"
+      - "C:/workspace/Python/gcc-ar8.com"
+      - "C:/workspace/Python/gcc-ar8.exe"
+      - "C:/workspace/Python/gcc-ar8"
+      - "C:/workspace/Python/Scripts/gcc-ar8.com"
+      - "C:/workspace/Python/Scripts/gcc-ar8.exe"
+      - "C:/workspace/Python/Scripts/gcc-ar8"
+      - "D:/mingw64/bin/gcc-ar.com"
+    found: "D:/mingw64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-8.1"
+      - "gcc-ranlib-8"
+      - "gcc-ranlib8"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+    searched_directories:
+      - "D:/mingw64/bin/gcc-ranlib-8.1.com"
+      - "D:/mingw64/bin/gcc-ranlib-8.1.exe"
+      - "D:/mingw64/bin/gcc-ranlib-8.1"
+      - "D:/usr/bin/gcc-ranlib-8.1.com"
+      - "D:/usr/bin/gcc-ranlib-8.1.exe"
+      - "D:/usr/bin/gcc-ranlib-8.1"
+      - "D:/Download/bin/gcc-ranlib-8.1.com"
+      - "D:/Download/bin/gcc-ranlib-8.1.exe"
+      - "D:/Download/bin/gcc-ranlib-8.1"
+      - "C:/Windows/System32/gcc-ranlib-8.1.com"
+      - "C:/Windows/System32/gcc-ranlib-8.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-8.1"
+      - "C:/Windows/gcc-ranlib-8.1.com"
+      - "C:/Windows/gcc-ranlib-8.1.exe"
+      - "C:/Windows/gcc-ranlib-8.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8.1"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8.1.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8.1.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8.1"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8.1.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8.1.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8.1"
+      - "D:/Cmake/bin/gcc-ranlib-8.1.com"
+      - "D:/Cmake/bin/gcc-ranlib-8.1.exe"
+      - "D:/Cmake/bin/gcc-ranlib-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8.1"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8.1.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8.1.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8.1"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8.1.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8.1.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8.1"
+      - "C:/workspace/Python/gcc-ranlib-8.1.com"
+      - "C:/workspace/Python/gcc-ranlib-8.1.exe"
+      - "C:/workspace/Python/gcc-ranlib-8.1"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8.1.com"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8.1.exe"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8.1"
+      - "D:/mingw64/bin/gcc-ranlib-8.com"
+      - "D:/mingw64/bin/gcc-ranlib-8.exe"
+      - "D:/mingw64/bin/gcc-ranlib-8"
+      - "D:/usr/bin/gcc-ranlib-8.com"
+      - "D:/usr/bin/gcc-ranlib-8.exe"
+      - "D:/usr/bin/gcc-ranlib-8"
+      - "D:/Download/bin/gcc-ranlib-8.com"
+      - "D:/Download/bin/gcc-ranlib-8.exe"
+      - "D:/Download/bin/gcc-ranlib-8"
+      - "C:/Windows/System32/gcc-ranlib-8.com"
+      - "C:/Windows/System32/gcc-ranlib-8.exe"
+      - "C:/Windows/System32/gcc-ranlib-8"
+      - "C:/Windows/gcc-ranlib-8.com"
+      - "C:/Windows/gcc-ranlib-8.exe"
+      - "C:/Windows/gcc-ranlib-8"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-8"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-8"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-8"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib-8"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib-8"
+      - "D:/Cmake/bin/gcc-ranlib-8.com"
+      - "D:/Cmake/bin/gcc-ranlib-8.exe"
+      - "D:/Cmake/bin/gcc-ranlib-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib-8"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib-8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib-8"
+      - "C:/workspace/Python/gcc-ranlib-8.com"
+      - "C:/workspace/Python/gcc-ranlib-8.exe"
+      - "C:/workspace/Python/gcc-ranlib-8"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8.com"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8.exe"
+      - "C:/workspace/Python/Scripts/gcc-ranlib-8"
+      - "D:/mingw64/bin/gcc-ranlib8.com"
+      - "D:/mingw64/bin/gcc-ranlib8.exe"
+      - "D:/mingw64/bin/gcc-ranlib8"
+      - "D:/usr/bin/gcc-ranlib8.com"
+      - "D:/usr/bin/gcc-ranlib8.exe"
+      - "D:/usr/bin/gcc-ranlib8"
+      - "D:/Download/bin/gcc-ranlib8.com"
+      - "D:/Download/bin/gcc-ranlib8.exe"
+      - "D:/Download/bin/gcc-ranlib8"
+      - "C:/Windows/System32/gcc-ranlib8.com"
+      - "C:/Windows/System32/gcc-ranlib8.exe"
+      - "C:/Windows/System32/gcc-ranlib8"
+      - "C:/Windows/gcc-ranlib8.com"
+      - "C:/Windows/gcc-ranlib8.exe"
+      - "C:/Windows/gcc-ranlib8"
+      - "C:/Windows/System32/wbem/gcc-ranlib8.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib8.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib8"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib8.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib8.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib8"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib8.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib8.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib8"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib8.com"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib8.exe"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/gcc-ranlib8"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib8.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib8.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/gcc-ranlib8"
+      - "D:/Cmake/bin/gcc-ranlib8.com"
+      - "D:/Cmake/bin/gcc-ranlib8.exe"
+      - "D:/Cmake/bin/gcc-ranlib8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/gcc-ranlib8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/gcc-ranlib8"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib8.com"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib8.exe"
+      - "D:/Download/Microsoft VS Code/bin/gcc-ranlib8"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib8.com"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib8.exe"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/gcc-ranlib8"
+      - "C:/workspace/Python/gcc-ranlib8.com"
+      - "C:/workspace/Python/gcc-ranlib8.exe"
+      - "C:/workspace/Python/gcc-ranlib8"
+      - "C:/workspace/Python/Scripts/gcc-ranlib8.com"
+      - "C:/workspace/Python/Scripts/gcc-ranlib8.exe"
+      - "C:/workspace/Python/Scripts/gcc-ranlib8"
+      - "D:/mingw64/bin/gcc-ranlib.com"
+    found: "D:/mingw64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Cmake/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "D:/Cmake/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "D:/mingw64/bin/"
+      - "D:/usr/bin/"
+      - "D:/Download/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Local/Programs/Ollama/"
+      - "D:/Download/Microsoft VS Code/bin/"
+      - "C:/Users/\u9648\u5bb6\u4fca2021/AppData/Roaming/uv/python/cpython-3.14.3-windows-x86_64-none/Scripts/"
+      - "C:/workspace/Python/"
+      - "C:/workspace/Python/Scripts/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Cmake/bin/"
+      - "D:/Cmake/sbin/"
+      - "D:/Cmake/"
+      - "C:/Program Files (x86)/main/bin/"
+      - "C:/Program Files (x86)/main/sbin/"
+      - "C:/Program Files (x86)/main/"
+    searched_directories:
+      - "D:/mingw64/bin/windres.com"
+    found: "D:/mingw64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\usr\\bin"
+        - "D:/Download/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "D:/mingw64/bin"
+        - "D:\\Cmake\\bin"
+        - "C:/Users/\u9648\u5bb6\u4fca2021/.local/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Local\\Programs\\Ollama"
+        - "D:/Download/Microsoft VS Code/bin"
+        - "C:\\Users\\\u9648\u5bb6\u4fca2021\\AppData\\Roaming\\uv\\python\\cpython-3.14.3-windows-x86_64-none\\Scripts"
+        - "C:/workspace/Python"
+        - "C:\\workspace\\Python\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/main"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Cmake"
+        - "C:/Program Files (x86)/main"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-kvdpp8"
+      binary: "C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-kvdpp8"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-kvdpp8'
+        
+        Run Build Command(s): D:/Cmake/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_186cc/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_186cc.dir\\build.make CMakeFiles/cmTC_186cc.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-kvdpp8'
+        Building C object CMakeFiles/cmTC_186cc.dir/CMakeCCompilerABI.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj -c D:\\Cmake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
+        Thread model: posix
+        gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT D:\\Cmake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccFNmIrf.s
+        GNU C17 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include"
+        ignoring nonexistent directory "C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../include"
+        ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"
+        ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C17 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 985ce7ae6dd3a696cd146ca9896b0035
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccFNmIrf.s
+        GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
+        COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../libexec/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../lib/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+        Linking C executable cmTC_186cc.exe
+        D:\\Cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_186cc.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
+        Thread model: posix
+        gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
+        COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../libexec/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../lib/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_186cc.exe' '-mtune=core2' '-march=nocona'
+         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccrw4MpE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_186cc.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_186cc.dir/objects.a --no-whole-archive --out-implib libcmTC_186cc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        collect2 version 8.1.0
+        D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccrw4MpE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_186cc.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_186cc.dir/objects.a --no-whole-archive --out-implib libcmTC_186cc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.30
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_186cc.exe' '-mtune=core2' '-march=nocona'
+        D:\\Cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_186cc.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_186cc.dir/objects.a @CMakeFiles\\cmTC_186cc.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_186cc.dir/objects.a -Wl,--no-whole-archive -o cmTC_186cc.exe -Wl,--out-implib,libcmTC_186cc.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-kvdpp8'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include]
+          add: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed]
+          add: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include]
+        collapse include dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed]
+        collapse include dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include] ==> [D:/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;D:/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-kvdpp8']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/Cmake/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_186cc/fast]
+        ignore line: [D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_186cc.dir\\build.make CMakeFiles/cmTC_186cc.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-kvdpp8']
+        ignore line: [Building C object CMakeFiles/cmTC_186cc.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj -c D:\\Cmake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.1.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+        ignore line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT D:\\Cmake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccFNmIrf.s]
+        ignore line: [GNU C17 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include]
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed]
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 985ce7ae6dd3a696cd146ca9896b0035]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccFNmIrf.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
+        ignore line: [COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
+        ignore line: [D:/mingw64/bin/../libexec/gcc/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_186cc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+        ignore line: [Linking C executable cmTC_186cc.exe]
+        ignore line: [D:\\Cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_186cc.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.1.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
+        ignore line: [COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
+        ignore line: [D:/mingw64/bin/../libexec/gcc/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_186cc.exe' '-mtune=core2' '-march=nocona']
+        link line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccrw4MpE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_186cc.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_186cc.dir/objects.a --no-whole-archive --out-implib libcmTC_186cc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+          arg [D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccrw4MpE.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [--sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_186cc.exe] ==> ignore
+          arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o]
+          arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0]
+          arg [-LD:/mingw64/bin/../lib/gcc] ==> dir [D:/mingw64/bin/../lib/gcc]
+          arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib]
+          arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_186cc.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_186cc.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [collect2 version 8.1.0]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccrw4MpE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_186cc.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_186cc.dir/objects.a --no-whole-archive --out-implib libcmTC_186cc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        linker tool for 'C': D:/mingw64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o]
+        collapse obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        collapse library dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0]
+        collapse library dir [D:/mingw64/bin/../lib/gcc] ==> [D:/mingw64/lib/gcc]
+        collapse library dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib] ==> [D:/mingw64/lib]
+        collapse library dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> [D:/mingw64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex]
+        implicit objs: [D:/mingw64/x86_64-w64-mingw32/lib/crt2.o;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        implicit dirs: [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0;D:/mingw64/lib/gcc;D:/mingw64/x86_64-w64-mingw32/lib;D:/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.30
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-qad8k1"
+      binary: "C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-qad8k1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-qad8k1'
+        
+        Run Build Command(s): D:/Cmake/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_bf6f9/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bf6f9.dir\\build.make CMakeFiles/cmTC_bf6f9.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-qad8k1'
+        Building CXX object CMakeFiles/cmTC_bf6f9.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Cmake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=D:\\mingw64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
+        Thread model: posix
+        gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT D:\\Cmake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\cc5uZSh8.s
+        GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"
+        ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"
+        ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include"
+        ignoring nonexistent directory "C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../include"
+        ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"
+        ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 82f0c9785fd37a38ba7b7f8357369a82
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\cc5uZSh8.s
+        GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
+        COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../libexec/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../lib/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+        Linking CXX executable cmTC_bf6f9.exe
+        D:\\Cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_bf6f9.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=D:\\mingw64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
+        Thread model: posix
+        gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
+        COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../libexec/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../lib/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf6f9.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccMGLNNh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_bf6f9.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bf6f9.dir/objects.a --no-whole-archive --out-implib libcmTC_bf6f9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        collect2 version 8.1.0
+        D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccMGLNNh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_bf6f9.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bf6f9.dir/objects.a --no-whole-archive --out-implib libcmTC_bf6f9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.30
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf6f9.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+        D:\\Cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_bf6f9.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_bf6f9.dir/objects.a @CMakeFiles\\cmTC_bf6f9.dir\\objects1.rsp
+        D:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_bf6f9.dir/objects.a -Wl,--no-whole-archive -o cmTC_bf6f9.exe -Wl,--out-implib,libcmTC_bf6f9.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-qad8k1'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++]
+          add: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward]
+          add: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include]
+          add: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed]
+          add: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++]
+        collapse include dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward]
+        collapse include dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include]
+        collapse include dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed]
+        collapse include dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include] ==> [D:/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;D:/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-qad8k1']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/Cmake/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_bf6f9/fast]
+        ignore line: [D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bf6f9.dir\\build.make CMakeFiles/cmTC_bf6f9.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/code/project1/build/CMakeFiles/CMakeScratch/TryCompile-qad8k1']
+        ignore line: [Building CXX object CMakeFiles/cmTC_bf6f9.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Cmake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.1.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT D:\\Cmake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\cc5uZSh8.s]
+        ignore line: [GNU C++14 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++]
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward]
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include]
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed]
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 82f0c9785fd37a38ba7b7f8357369a82]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\cc5uZSh8.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
+        ignore line: [COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
+        ignore line: [D:/mingw64/bin/../libexec/gcc/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf6f9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [Linking CXX executable cmTC_bf6f9.exe]
+        ignore line: [D:\\Cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_bf6f9.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.1.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
+        ignore line: [COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
+        ignore line: [D:/mingw64/bin/../libexec/gcc/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf6f9.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        link line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccMGLNNh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_bf6f9.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bf6f9.dir/objects.a --no-whole-archive --out-implib libcmTC_bf6f9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+          arg [D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccMGLNNh.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [--sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_bf6f9.exe] ==> ignore
+          arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o]
+          arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0]
+          arg [-LD:/mingw64/bin/../lib/gcc] ==> dir [D:/mingw64/bin/../lib/gcc]
+          arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib]
+          arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_bf6f9.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_bf6f9.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [collect2 version 8.1.0]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\陈家俊~1\\AppData\\Local\\Temp\\ccMGLNNh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_bf6f9.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bf6f9.dir/objects.a --no-whole-archive --out-implib libcmTC_bf6f9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        linker tool for 'CXX': D:/mingw64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o]
+        collapse obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        collapse library dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0]
+        collapse library dir [D:/mingw64/bin/../lib/gcc] ==> [D:/mingw64/lib/gcc]
+        collapse library dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib] ==> [D:/mingw64/lib]
+        collapse library dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> [D:/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex]
+        implicit objs: [D:/mingw64/x86_64-w64-mingw32/lib/crt2.o;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        implicit dirs: [D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0;D:/mingw64/lib/gcc;D:/mingw64/x86_64-w64-mingw32/lib;D:/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Cmake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.30
+...

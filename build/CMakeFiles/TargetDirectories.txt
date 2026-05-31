@@ -1,0 +1,3 @@
+C:/code/project1/build/CMakeFiles/main.dir
+C:/code/project1/build/CMakeFiles/edit_cache.dir
+C:/code/project1/build/CMakeFiles/rebuild_cache.dir
