@@ -1,22 +1,23 @@
 #include "buttons.h"
 #include "config.h"
 
-static ButtonCallback moveCB = nullptr;
+static ButtonCallback okCB = nullptr;
 static ButtonCallback incCB = nullptr;
 static ButtonCallback decCB = nullptr;
-static ButtonCallback okCB = nullptr;
+static ButtonCallback moveCB = nullptr;
 
-// 按键状态
-static struct {
+struct ButtonState {
   uint8_t pin;
   bool lastState;
   unsigned long lastDebounceTime;
   bool pressed;
-} btnStates[] = {
-  {BTN_MOVE, HIGH, 0, false},
+};
+
+static ButtonState btnStates[] = {
+  {BTN_OK,   HIGH, 0, false},
   {BTN_INC,  HIGH, 0, false},
   {BTN_DEC,  HIGH, 0, false},
-  {BTN_OK,   HIGH, 0, false}
+  {BTN_MOVE, HIGH, 0, false}
 };
 
 const unsigned long DEBOUNCE_DELAY = 50;
@@ -38,12 +39,11 @@ void scanButtons() {
     if ((now - btnStates[i].lastDebounceTime) > DEBOUNCE_DELAY) {
       if (reading == LOW && !btnStates[i].pressed) {
         btnStates[i].pressed = true;
-        // 触发回调
         switch(i) {
-          case 0: if(moveCB) moveCB(); break;
+          case 0: if(okCB) okCB(); break;
           case 1: if(incCB) incCB(); break;
           case 2: if(decCB) decCB(); break;
-          case 3: if(okCB) okCB(); break;
+          case 3: if(moveCB) moveCB(); break;
         }
       } else if (reading == HIGH) {
         btnStates[i].pressed = false;
@@ -53,7 +53,7 @@ void scanButtons() {
   }
 }
 
-void setMoveCallback(ButtonCallback cb) { moveCB = cb; }
+void setOkCallback(ButtonCallback cb) { okCB = cb; }
 void setIncCallback(ButtonCallback cb) { incCB = cb; }
 void setDecCallback(ButtonCallback cb) { decCB = cb; }
-void setOkCallback(ButtonCallback cb) { okCB = cb; }
+void setMoveCallback(ButtonCallback cb) { moveCB = cb; }

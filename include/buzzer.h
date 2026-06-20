@@ -4,9 +4,10 @@
 #include <Arduino.h>
 
 void initBuzzer();
-void startAlarm();         // 开始闹铃（非阻塞）
+void startAlarm();
 void stopAlarm();
 bool isAlarmActive();
-void updateBuzzer();       // 在loop中调用，控制蜂鸣器发声模式
+void playBeep(int freq, int durationMs);
+void updateBuzzer();
 
 #endif
